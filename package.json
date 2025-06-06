@@ -1,0 +1,17 @@
+{
+  "name": "githubcommitvisualizer",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "ably": "^2.9.0",
+    "chart.js": "^4.4.9",
+    "vite": "^6.3.5"
+  }
+}
