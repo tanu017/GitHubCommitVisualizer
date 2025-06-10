@@ -6,10 +6,12 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
-    <h1>GitHub Commit Visualizer</h1>
-    <input type="text" id="ownerInput" placeholder="Enter GitHub repo owner">
-    <input type="text" id="repoInput" placeholder="Enter GitHub repo">
-    <button onclick="fetchCommits()">Visualize</button>
+    <div>
+        <h1>GitHub Commit Visualizer</h1>
+        <input type="text" id="ownerInput" placeholder="Enter GitHub repo owner">
+        <input type="text" id="repoInput" placeholder="Enter GitHub repo">
+        <button onclick="fetchCommits()">Visualize</button>
+    </div>
     <canvas id="commitChart"></canvas>
     <script src="script.js"></script>
 </body>
